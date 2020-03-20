@@ -22,6 +22,7 @@ h3,
 h4,
 h5,
 h6,
+p,
 blockquote,
 pre,
 a,
@@ -74,9 +75,6 @@ td {
   font-family: inherit;
   font-size: 100%;
   vertical-align: baseline;
-}
-p {
-  font-weight: lighter;
 }
 body {
   line-height: 1;
