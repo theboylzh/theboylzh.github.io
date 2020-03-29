@@ -194,12 +194,13 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #999;
-  margin-bottom: 1em;
-  margin-left: 5px;
+  color: #ff7214;
+  margin-bottom: 0.2em;
+  margin-left: 0px;
   line-height: 1em;
   text-shadow: 0 1px #fff;
   font-weight: bold;
+  font-size: 15px;
 }
 .article-inner,
 .archive-article-inner {
@@ -518,6 +519,9 @@ body {
   clear: both;
 }
 .article-date {
+  color: #999;
+  margin-left: 20px;
+  font-weight: normal;
   float: left;
 }
 .article-category {
@@ -534,7 +538,7 @@ body {
   margin: 0 12px 1em;
 }
 .article-header {
-  padding: 32px 32px 0;
+  padding: 20px 20px 0;
 }
 .article-title {
   text-decoration: none;
@@ -548,11 +552,11 @@ body {
   transition: color 0.2s;
 }
 a.article-title:hover {
-  color: #258fb8;
+  color: #ff7214;
 }
 .article-entry {
   color: #333;
-  padding: 0 32px;
+  padding: 0 20px;
 }
 .article-entry:before,
 .article-entry:after {
@@ -585,7 +589,7 @@ a.article-title:hover {
   margin: 1.1em 0;
 }
 .article-entry a {
-  color: #258fb8;
+  color: #ff7214;
   text-decoration: none;
 }
 .article-entry a:hover {
@@ -684,17 +688,17 @@ a.article-title:hover {
   text-decoration: none;
 }
 .article-more-link a:hover {
-  background: #258fb8;
+  background: #ff7214;
   color: #fff;
   text-decoration: none;
-  text-shadow: 0 1px #1e7293;
+  text-shadow: 0 1px #dc5800;
 }
 .article-footer {
   font-size: 0.85em;
   line-height: 2em;
   border-top: 1px solid #ddd;
   padding-top: 2em;
-  margin: 0 32px 32px;
+  margin: 0 20px 20px;
 }
 .article-footer:before,
 .article-footer:after {
@@ -944,13 +948,13 @@ a.article-title:hover {
   background: #fff;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
-  padding: 32px;
+  padding: 20px;
   border: 1px solid #ddd;
   border-radius: 3px;
   margin: 50px 0;
 }
 #comments a {
-  color: #258fb8;
+  color: #ff7214;
 }
 .archives-wrap {
   margin: 50px 0;
@@ -1006,7 +1010,7 @@ a.article-title:hover {
   line-height: 2em;
 }
 .archive-article-title:hover {
-  color: #258fb8;
+  color: #ff7214;
 }
 .archive-article-footer {
   margin-top: 1em;
@@ -1074,13 +1078,13 @@ a.article-title:hover {
   color: #ddd;
 }
 #footer {
-  background: #262a30;
+  background: #111;
   padding: 50px 0;
   border-top: 1px solid #ddd;
   color: #999;
 }
 #footer a {
-  color: #258fb8;
+  color: #ff7214;
   text-decoration: none;
 }
 #footer a:hover {
@@ -1092,14 +1096,14 @@ a.article-title:hover {
 }
 .article-entry pre,
 .article-entry .highlight {
-  background: #2d2d2d;
-  margin: 0 -32px;
-  padding: 15px 32px;
-  border-style: solid;
-  border-color: #ddd;
-  border-width: 1px 0;
+  background: #f4f4f4;
+  margin: 0 /*article-padding * -1*/;
+  padding: 15px 20px;
+/*border-style: solid
+  border-color: color-border
+  border-width: 1px 0*/
   overflow: auto;
-  color: #ccc;
+  color: #333;
   line-height: 34px;
 }
 .article-entry .highlight .gutter pre,
@@ -1112,7 +1116,7 @@ a.article-title:hover {
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
 }
 .article-entry code {
-  background: #fff;
+  background: #f4f4f4;
   text-shadow: 0 1px #fff;
   padding: 0 0.3em;
 }
@@ -1162,12 +1166,12 @@ a.article-title:hover {
   background: #515151;
 }
 .article-entry .gist {
-  margin: 0 -32px;
+  margin: 0 -20px;
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
-  background: #2d2d2d;
-  padding: 15px 32px 15px 0;
+  background: #f4f4f4;
+  padding: 15px 20px 15px 0;
 }
 .article-entry .gist .gist-file {
   border: none;
@@ -1192,16 +1196,16 @@ a.article-title:hover {
   border: none;
 }
 .article-entry .gist .gist-file .gist-meta {
-  background: #2d2d2d;
+  background: #f4f4f4;
   color: #999;
   font: 0.85em -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
-  margin-left: 32px;
+  margin-left: 20px;
 }
 .article-entry .gist .gist-file .gist-meta a {
-  color: #258fb8;
+  color: #ff7214;
   font-weight: normal;
 }
 .article-entry .gist .gist-file .gist-meta a:hover {
@@ -1298,21 +1302,17 @@ pre .javascript .function {
   margin: 50px 0;
 }
 .widget {
-  color: #777;
-  text-shadow: 0 1px #fff;
-  background: #ddd;
-  -webkit-box-shadow: 0 -1px 4px #ccc inset;
-  box-shadow: 0 -1px 4px #ccc inset;
-  border: 1px solid #ccc;
-  padding: 15px;
-  border-radius: 3px;
+  color: #666;
+  background: #fff;
+  padding: 0px;
 }
 .widget a {
-  color: #258fb8;
+  color: #666;
   text-decoration: none;
 }
 .widget a:hover {
-  text-decoration: underline;
+  color: #ff7214;
+  text-decoration: none;
 }
 .widget ul ul,
 .widget ol ul,
