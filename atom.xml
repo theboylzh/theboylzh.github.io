@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>LZH Insight</title>
+  
+  <subtitle>探索和认识世界</subtitle>
+  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-03-20T15:55:20.650Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>theboylzh</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>🎉 恭喜发布第一篇文章</title>
+    <link href="http://yoursite.com/2020/03/19/Hey-guys/"/>
+    <id>http://yoursite.com/2020/03/19/Hey-guys/</id>
+    <published>2020-03-19T01:20:44.000Z</published>
+    <updated>2020-03-20T15:55:20.650Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是我的第一篇文章。</p><p>没什么，就测试一下。第一次自己用 Hexo + GitHub 的方式来搭建博客。值得纪念。<a id="more"></a>在 Things 上面罗列了了解 GitHub 和搭建博客的 todo 之后，拖延了好多天。终于在某天，因为实在不想面对作品集设计——兴许是要动脑——我干脆捣鼓起了怎么搭建个人博客。说实在的，这是我从 17 年就想了解的事情了，如今 3 年过去了，百废待兴，我觉着要是不搞吧，就可太垃圾了。于是我马上撸起袖子，先从 Git 开始，再到 GitHub，再到 Hexo。其中使用印象笔记新版的编辑器可爽了。目前认为印象笔记中国版越来越牛逼，只需要等他把客户端也更新上新的编辑器，那可就太炸了。我目前个人最喜欢就是使用 Markdown + 表格的形式来总结知识，当前也只有印象笔记能满足我了。</p><p>当然，使用 Sublime Text 来写 Markdown 文档虽然没有 Bear 那么美观，但是感觉很硬核，自我良好的感觉爆棚，这也是好事情，会直接促进我继续深入研究那些“硬核”的事情。说实在的，由于 Bear 没有表格功能，我觉得很快可能就要弃坑了。谁叫印象笔记太好用了呢——至少它是可预期的，而 Bear 还不知道会否做这个功能。</p><p>当然，测试一下 Markdown 格式也是必不可少的！</p><p>我近来在做的几种运动：</p><ul><li>功能性训练</li><li>徒手训练</li><li>跑酷</li></ul><p>来，测试一下这个<a href="www.baidu.com">午夜福利网站</a>。</p><blockquote><p>明月几时有？把酒问青天。举头望明月，笑问客从何处来？南村群妇欺我年轻帅，公然抱我入房去，唇焦口燥呼不得～～～</p></blockquote><p>测试一下<code>代码</code>看看吧！</p><pre><code>hexo g -d</code></pre><p>最后，插个照片吧！</p><p><img src="http://q7fa8t4qy.bkt.clouddn.com/img-cloud.jpg" alt="image"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;这是我的第一篇文章。&lt;/p&gt;
+&lt;p&gt;没什么，就测试一下。第一次自己用 Hexo + GitHub 的方式来搭建博客。值得纪念。</summary>
+    
+    
+    
+    <category term="闲言碎语" scheme="http://yoursite.com/categories/%E9%97%B2%E8%A8%80%E7%A2%8E%E8%AF%AD/"/>
+    
+    
+  </entry>
+  
+</feed>
